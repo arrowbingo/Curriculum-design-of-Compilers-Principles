@@ -1,0 +1,207 @@
+#include<stdio.h>
+void main(){
+	int i=0,max=0;
+	int a[6]={1,4,6,2,8,9};
+	while(i<6){
+		if(max<a[i]){
+			max=a[i];
+		}
+		i++;
+	}
+}
+
+#include<stdio.h>
+void main(){
+	int i=0,max=0;
+	int a[6]={1,4,6,2,8,9};
+	while(i<6){
+		if(max<a[i]){
+			max=a[i];
+		}else{
+			max++;
+		}
+		i++;
+	}
+}
+
+#include<stdio.h>
+void main(){
+	double a=1,b=2,c=3,d;
+	if(a<b){
+		d=a+b*c;
+	}else if(a>b){
+		d=a-b*c;
+	}else{
+		d=a+b-c;
+	}
+
+}
+
+
+#include<stdio.h>
+void main(){
+	double a=1,b=2;
+	int i;
+	for(i=0;i<4;i++){
+		if(a<b){
+			a=b+1;
+		}else{
+			a=b-1;
+		}
+	}
+}
+
+#include<stdio.h>
+void main(){
+	double a=1,b=2;
+	int i;
+	for(i=0;i<4;i++){
+		while(a<b){
+			if(a==b){
+				a++;
+			}
+		}
+	}
+}
+
+
+#include<stdio.h>
+void main(){
+	double a=1,b=2,i=0;
+	while(i<4){
+		if(a<b){
+			a=b+1;
+		}else{
+			a=b-1;
+		}
+		i++;
+	}
+}
+
+#include<stdio.h>
+void main(){
+ 	int26 x,y;
+ 	x=abc;
+ 	y=abd;
+ 	int i=0,temp=0;
+ 	int b[6]={1,4,6,2,8,9};
+ 	while(i<6){
+ 		if(x<y){
+ 			temp=b[i]+x;
+ 			x=temp;
+ 		}
+ 		i++;
+ 	}
+}
+
+
+#include<stdio.h>
+void main(){
+ 	int a=1,b=2,c=3;
+ 	if(a<b){
+ 		a++;
+ 		if(b<c){
+ 			b++;
+ 		}else{
+ 			c++;
+ 		}
+ 	}
+}
+
+
+#include<stdio.h>
+void main(){
+ 	int a=1,b=2,c=3;
+ 	while(a<b){
+ 		a=b+1;
+ 		while(a<c){
+ 			a=b+c;
+ 			while(b<c){
+ 				a=c+1;
+ 				while(c<a){
+ 					a=b-c;
+ 					while(c==a){
+ 						a=c;
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+}
+
+
+#include<stdio.h>
+void main(){
+    int a=5;
+    int i=1;
+    int b=3;
+    int c=20;
+    int d=100;
+	while(a<d){
+	    if(a<d){
+	        c++;
+	        while(a<c){
+            	c++;
+            }
+	    }
+        c++;
+	    while(a<c){
+	        b++;
+	        while(a<b){
+	            i++;
+	            if(a<d){
+                	c++;
+                	if(a<d){
+                       c++;
+                    }
+                }
+	        }
+	    }
+	}
+}
+
+
+#include<stdio.h>
+void main(){
+ 	int a=1,b=2,c=3;
+ 	if(a<b){
+ 		a++;
+ 		if(b<c){
+ 			b++;
+ 		}else{
+ 			c++;
+ 		}
+ 	}
+}
+
+
+#include<stdio.h>
+void main(){
+ 	int a=1,b=2,c=3;
+ 	while(a<b){
+ 		a++;
+ 		if(a==b){
+ 			while(a>b){
+ 				b++;
+ 			}
+ 		}else{
+ 			c++;
+ 		}
+ 	}
+}
+
+
+#include<stdio.h>
+ void main(){
+  	int a=1,b=2,c=3;
+  	if(a<b){
+  		a++;
+  		while(a==b){
+  			while(a>b){
+  				b++;
+  			}
+  		}
+  	}else{
+  		c++;
+  	}
+ }

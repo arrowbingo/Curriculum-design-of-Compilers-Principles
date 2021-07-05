@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main(){
+	double a=1,b=2,i=0;
+	while(i<4){
+		if(a<b){
+			a=b+1;
+		}else{
+			a=b-1;
+		}
+		i++;
+	}
+}
